@@ -1,0 +1,52 @@
+prod.af2 Table for investor countries dataset
+
+crops.prod.af for target countries dataset
+
+Crop asigment 
+
+accacia -> natural vegetation (no band) = "nat veg" from here on
+alfalfa -> Band 24 
+banana-> Band 15, 41
+barley -> Band 1, 27
+bean -> Band 5, 31
+cacao -> nat veg 
+cassava -> Band 8, 34
+castor.oil -> nat veg
+cereals  -> Band 1, 27, 4, 30 
+citrus  -> Band 14,40
+coffee  -> nat veg
+corn  -> Band 3,29
+cotton -> Band 21, 47
+eucalyptus -> Band 26, 52 (Note!!, no data in the input, so asign where agriculture exists)
+flowers -> Band 23,49
+food.crops -> Band 1:3, 27:29
+fruit -> Band 15,41
+grains -> Band 1,27
+grapes -> Band 19,45
+jatropha -> nat veg
+not.stated -> Band 23,49
+oil.palm -> nat veg
+oil.seeds -> nat veg
+onion -> Band 23,49
+palms -> nat veg
+peanut -> Band 11,37
+peas -> Band 5,31
+pepper -> Band 23,49
+pine -> nat veg
+pineapple -> Band 23,49
+potatoes -> Band 7,33
+rice -> Band 2,28
+rubber -> nat veg
+sesame -> Band 23,29
+sorghum -> Band 4,30
+soybeans -> Band 10,36
+sugar.cane -> Band 13,39
+sunflower -> Band 9,35
+tea -> nat veg
+teak -> nat veg
+tomatoes -> Band 24,50
+trees -> nat veg
+vegetables -> Band 23,49
+wheat -> Band 1,27
+
+
