@@ -13,6 +13,7 @@
  PIORITY<-"IRRIG" #"RAINFED", "NOPIRO"
  NUM_CROPS<-26
  NUM_TOTAL_CROPS<-52
+ REMAIN<-0.9
  
  grid.file<-"/home/sinan/workspace/LPJmL/LPJmL_Global/inputs2013/grid.bin"
  cft.file<-"/home/sinan/workspace/input_downscale/INPUTS/cft1700_2010_new.bin"
@@ -102,10 +103,10 @@ getThisCountry<-function(cft,cow,this.country){
 
 getThisBandArea<-function(countrycft,thisband){
 	this.band.cft<-list()
-	chosen.ind<<-which(countrycft[["cft"]][,thisband]>0 & countrycft[["cft"]][,thisband]<0.9,arr.ind=2)
+	chosen.ind<<-which(countrycft[["cft"]][,thisband]>0 & countrycft[["cft"]][,thisband]<REMAIN,arr.ind=2)
  	if(is.null(dim(chosen.ind))==FALSE)   chosen.ind<-unique(chosen.ind[,1])	
  	totalfrac<-rowSums(countrycft[["cft"]])
- 	chosen.ind<-intersect(chosen.ind,which(totalfrac<0.9))
+ 	chosen.ind<-intersect(chosen.ind,which(totalfrac<REMAIN))
  	#if(length(chosen.ind)==1)  this.band.cft[["cft"]]<-sum(countrycft[["cft"]][chosen.ind,])
  	
  	if(length(chosen.ind)==0) {
@@ -126,11 +127,13 @@ getThisBandArea<-function(countrycft,thisband){
 getallArea<-function(countrycft){
 	this.band.cft<-list()
  	totalfrac<-rowSums(countrycft[["cft"]])
- 	this.band.cft[["cft"]]<-totalfrac
-	this.band.cft[["lon"]]<-countrycft[["lon"]]
-	this.band.cft[["lat"]]<-countrycft[["lat"]]
-	this.band.cft[["area_total"]]<-countrycft[["area_total"]]
-	this.band.cft[["index_origin"]]<-countrycft[["index_origin"]]
+ 	chosen.ind<-which(totalfrac<REMAIN)
+ 	this.band.cft[["cft"]]<-totalfrac[chosen.ind]
+ 	this.band.cft[["lon"]]<-countrycft[["lon"]][chosen.ind]
+	this.band.cft[["lat"]]<-countrycft[["lat"]][chosen.ind]
+	this.band.cft[["area_total"]]<-countrycft[["area_total"]][chosen.ind]
+	this.band.cft[["index_origin"]]<-countrycft[["index_origin"]][chosen.ind]
+
 	return(this.band.cft)
 }
 
@@ -146,7 +149,12 @@ getUsedArea<-function(cft_list){
 	return(cft_list$area_total*cft_list$cft)
 }
 getAvailArea<-function(cft_list){
-	return(cft_list$area_total*(0.9-cft_list$cft))
+	val<-cft_list$area_total*(REMAIN-cft_list$cft)
+	if(any(val<0)){ 
+		browser() 
+		stop("area < 0")
+	}	
+	return(val)
 }
 
 getProportion<-function(cft_list){
@@ -169,7 +177,7 @@ allocGrabLand<-function(cft_list,alloc_band,toassign){
 				#old cft also being added the assign value so that for next step the assigned value will appeared on old cft.
 				#cft[cft_list[["index_origin"]],alloc_band[i]]<<-cft[cft_list[["index_origin"]],alloc_band[i]]+new.cft[cft_list[["index_origin"]],alloc_band[i]]
 			}
-			cat("Assigning:",sum(val),"*",length(alloc_band),"to",cft.name52[alloc_band])
+			cat("Assigning:",sum(val*cft_list[["area_total"]]),"*",length(alloc_band),"to",cft.name52[alloc_band])
 			
 			if(DEBUG==TRUE){
 				if(round(sum(new.cft-cft.test))!=round(toassign)){
@@ -216,10 +224,6 @@ assignTheCropArea<-function(countrycft,landgrab_list,crop,country){
 		cat("1st -> ")
 		have_irrig_list<-getThisBandArea(countrycft,band_search_irrig)
 		have_irrig_availarea<-getAvailArea(have_irrig_list)
-		if(DEBUG==TRUE){
-			if(any(have_irrig_list$cft<0) || any(have_irrig_list$cft>=1)) {stop("\n")}
-			if(any(have_irrig_availarea<0)) {stop("available area < 0 \n")}
-		}
 		cat("Area [only irrigated]:",sum(have_irrig_availarea),"hectares     ")		
 		to_assign<-allocGrabLand(have_irrig_list,band_alloc_irrig,to_assign)
 		cat("......(",to_assign,")\n",sep="")
@@ -227,32 +231,20 @@ assignTheCropArea<-function(countrycft,landgrab_list,crop,country){
 		cat("2nd -> ")
 		have_rainf_list<-getThisBandArea(countrycft,band_search_rainf)
 		have_rainf_availarea<-getAvailArea(have_rainf_list)
-		if(DEBUG==TRUE){
-			if(any(have_rainf_list$cft<0) || any(have_rainf_list$cft>=1)) {stop("\n")}
-			if(any(have_rainf_availarea<0)) {stop("available area < 0 \n")}
-		}
 		cat("Area [only rainfed]:",sum(have_rainf_availarea),"hectares     ")	
 		to_assign<-allocGrabLand(have_rainf_list,band_alloc_rainf,to_assign)
 		cat("......(",to_assign,")\n",sep="")
 		
 		cat("3rd -> ")
-		have_allcrop_list<<-getThisBandArea(countrycft,allcrop_band)
+		have_allcrop_list<-getThisBandArea(countrycft,allcrop_band)
 		have_allcrop_availarea<-getAvailArea(have_allcrop_list)
-		if(DEBUG==TRUE){
-			if(any(have_allcrop_list$cft<0) || any(have_allcrop_list$cft>=1)) {stop("\n")}
-			if(any(have_allcrop_availarea<0)) {stop("available area < 0 \n")}
-		}
 		cat("Area [all crops]:",sum(have_allcrop_availarea),"hectares     ")	
 		to_assign<-allocGrabLand(have_allcrop_list,band_alloc_irrig,to_assign) # assign to irrigated 
 		cat("......(",to_assign,")\n",sep="")
 		
 		cat("4rd -> ")
-		have_mgrass_list<<-getThisBandArea(countrycft,24) #band 24 rainfed managed grassland
+		have_mgrass_list<-getThisBandArea(countrycft,24) #band 24 rainfed managed grassland
 		have_mgrass_availarea<-getAvailArea(have_mgrass_list)
-		if(DEBUG==TRUE){
-			if(any(have_mgrass_list$cft<0) || any(have_mgrass_list$cft>=1)) {stop("\n")}
-			if(any(have_mgrass_availarea<0)) {stop("available area < 0 \n")}
-		}
 		cat("Area [managed grassland]:",sum(have_mgrass_availarea),"hectares     ")	
 		to_assign<-allocGrabLand(have_allcrop_list,band_alloc_irrig,to_assign) # assign to irrigated 
 		cat("......(",to_assign,")\n",sep="")
@@ -261,10 +253,6 @@ assignTheCropArea<-function(countrycft,landgrab_list,crop,country){
 		cat("5th -> ")
 		have_all_list<-getallArea(countrycft)
 		have_all_availarea<-getAvailArea(have_all_list)
-		if(DEBUG==TRUE){
-			if(any(have_allcrop_list$cft<0) || any(have_allcrop_list$cft>=1)) {stop("\n")}
-			if(any(have_allcrop_availarea<0)) {stop("available area < 0 \n")}
-		}
 		cat("Area [entire country]:",sum(have_all_availarea),"hectares     ")	
 		to_assign<-allocGrabLand(have_all_list,c(1:NUM_TOTAL_CROPS),to_assign) # assign to irrigated 
 		cat("......(",to_assign,")\n",sep="")		
@@ -272,6 +260,54 @@ assignTheCropArea<-function(countrycft,landgrab_list,crop,country){
 	
 	
 	if(PIORITY=="RAINFED"){
+#		cat("1st -> ")
+#		have_rainf_list<-getThisBandArea(countrycft,band_search_rainf)
+#		have_rainf_availarea<-getAvailArea(have_rainf_list)
+#		cat("Area [only irrigated]:",sum(have_rainf_availarea),"hectares     ")		
+#		to_assign<-allocGrabLand(have_rainf_list,band_alloc_rainf,to_assign)
+#		cat("......(",to_assign,")\n",sep="")
+
+#		cat("2nd -> ")
+#		have_rainf_list<-getThisBandArea(countrycft,band_search_irrig)
+#		have_rainf_availarea<-getAvailArea(have_rainf_list)
+#		cat("Area [only rainfed]:",sum(have_rainf_availarea),"hectares     ")	
+#		to_assign<-allocGrabLand(have_rainf_list,band_alloc_rainf,to_assign)
+#		cat("......(",to_assign,")\n",sep="")
+#		
+#		cat("3rd -> ")
+#		have_allcrop_list<<-getThisBandArea(countrycft,allcrop_band)
+#		have_allcrop_availarea<-getAvailArea(have_allcrop_list)
+#		if(DEBUG==TRUE){
+#			if(any(have_allcrop_list$cft<0) || any(have_allcrop_list$cft>=1)) {stop("\n")}
+#			if(any(have_allcrop_availarea<0)) {stop("available area < 0 \n")}
+#		}
+#		cat("Area [all crops]:",sum(have_allcrop_availarea),"hectares     ")	
+#		to_assign<-allocGrabLand(have_allcrop_list,band_alloc_irrig,to_assign) # assign to irrigated 
+#		cat("......(",to_assign,")\n",sep="")
+#		
+#		cat("4rd -> ")
+#		have_mgrass_list<<-getThisBandArea(countrycft,24) #band 24 rainfed managed grassland
+#		have_mgrass_availarea<-getAvailArea(have_mgrass_list)
+#		if(DEBUG==TRUE){
+#			if(any(have_mgrass_list$cft<0) || any(have_mgrass_list$cft>=1)) {stop("\n")}
+#			if(any(have_mgrass_availarea<0)) {stop("available area < 0 \n")}
+#		}
+#		cat("Area [managed grassland]:",sum(have_mgrass_availarea),"hectares     ")	
+#		to_assign<-allocGrabLand(have_allcrop_list,band_alloc_irrig,to_assign) # assign to irrigated 
+#		cat("......(",to_assign,")\n",sep="")
+#		
+#		
+#		cat("5th -> ")
+#		have_all_list<-getallArea(countrycft)
+#		have_all_availarea<-getAvailArea(have_all_list)
+#		if(DEBUG==TRUE){
+#			if(any(have_allcrop_list$cft<0) || any(have_allcrop_list$cft>=1)) {stop("\n")}
+#			if(any(have_allcrop_availarea<0)) {stop("available area < 0 \n")}
+#		}
+#		cat("Area [entire country]:",sum(have_all_availarea),"hectares     ")	
+#		to_assign<-allocGrabLand(have_all_list,c(1:NUM_TOTAL_CROPS),to_assign) # assign to irrigated 
+#		cat("......(",to_assign,")\n",sep="")		
+#	}
 		
 	}
 	if(PIORITY=="NOPIRO"){
@@ -329,18 +365,18 @@ for(this.crop in crop_name){
 }
 	
 
-col<-rev(COL(100))
-col[1]<-"grey"
-Lon<-sort(unique(lon))
-Lat<-sort(unique(lat))
+#col<-rev(COL(100))
+#col[1]<-"grey"
+#Lon<-sort(unique(lon))
+#Lat<-sort(unique(lat))
 
-for(i in 1:52){
-	bitmap(paste("image/",cft.name52[i],".jpeg",sep=""),res=300,type="jpeg")
-	image.plot(x=Lon,y=Lat,map.build(abs(new.cft[,i])),col=col,xlim=c(-20,60), ylim=c(-40,40))
-	map(add=T)
-	title(paste("cft_frac",cft.name52[i]))
-	dev.off()
- }
+#for(i in 1:52){
+#	bitmap(paste("image/",cft.name52[i],".jpeg",sep=""),res=300,type="jpeg")
+#	image.plot(x=Lon,y=Lat,map.build(abs(new.cft[,i])),col=col,xlim=c(-20,60), ylim=c(-40,40))
+#	map(add=T)
+#	title(paste("cft_frac",cft.name52[i]))
+#	dev.off()
+# }
 
 
  #=========================trash
