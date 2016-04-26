@@ -40,14 +40,16 @@ year<-c(2000)
 band<-c(1:52)
 
 
-progs.path<-"./"
+progs.path<-""
+data.path <- ""
 
-if(NATEFF) data.path    <-  "./Bananas_NatEff/"
-if(SURFACE) data.path   <-  "./Bananas_Surface/"
-if(MIXED) data.path     <-  "./Bananas_Mixed/"
-if(SPRINKLER) data.path <-  "./Bananas_Sprinkler/"
-if(DRIP) data.path      <-  "./Bananas_Drip/"
-if(IMP) data.path       <-  "./Bananas_Imp/"
+
+if(NATEFF) data.path    <-  paste(data.path, "Bananas_NatEff/",  sep="")  
+if(SURFACE) data.path   <-  paste(data.path, "Bananas_Surface/", sep="")   
+if(MIXED) data.path     <-  paste(data.path, "Bananas_Mixed/",   sep="") 
+if(SPRINKLER) data.path <-  paste(data.path, "Bananas_Sprinkler/", sep="")
+if(DRIP) data.path      <-  paste(data.path, "Bananas_Drip/",    sep="")
+if(IMP) data.path       <-  paste(data.path, "Bananas_Imp/",     sep="") 
 
 source(paste(progs.path,"read.input.r",sep=""))
 source(paste(progs.path,"read.output.r",sep=""))
