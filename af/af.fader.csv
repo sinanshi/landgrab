@@ -1,0 +1,527 @@
+	deal.id	target.country	inv.country	production.size	crop	lat	long
+1	1098	Angola	Angola, Brazil	1450	Sugar Cane	-9.428079	15.74621
+2	1130	Cote d'Ivoire	Côte d'Ivoire, Singapore	31573	Oil Palm	7.539989	-5.54708
+3	1167	Congo	South Africa	500	Cereals (no specification)	-3.18427	12.2547919
+4	1167	Congo	South Africa	500	Wheat	-3.18427	12.2547919
+5	1167	Congo	South Africa	500	Rice	-3.18427	12.2547919
+6	1167	Congo	South Africa	500	Soya Beans	-3.18427	12.2547919
+7	1167	Congo	South Africa	500	Sugar Cane	-3.18427	12.2547919
+8	1181	Egypt	Saudi Arabia	1575	Barley	22.4687069	31.903938
+9	1181	Egypt	Saudi Arabia	1575	Alfalfa	22.4687069	31.903938
+10	1181	Egypt	Saudi Arabia	1575	Corn (Maize)	22.4687069	31.903938
+11	1181	Egypt	Saudi Arabia	1575	Wheat	22.4687069	31.903938
+12	1189	Ethiopia	Germany, Luxembourg	500	Peas	7.5460377	40.6346851
+13	1189	Ethiopia	Germany, Luxembourg	500	Castor Oil Plant	7.5460377	40.6346851
+14	1205	Ethiopia	India	1000	Corn (Maize)	7.9219687	34.1531947
+15	1205	Ethiopia	India	1000	Oil Palm	7.9219687	34.1531947
+16	1205	Ethiopia	India	1000	Rice	7.9219687	34.1531947
+17	1205	Ethiopia	India	1000	Sugar Cane	7.9219687	34.1531947
+18	1221	Ethiopia	India	333.3333333333	Pulses	8.24478	34.588169
+19	1221	Ethiopia	India	333.3333333333	Corn (Maize)	8.24478	34.588169
+20	1221	Ethiopia	India	333.3333333333	Soya Beans	8.24478	34.588169
+21	1235	Ethiopia	Saudi Arabia, Ethiopia	1400	Pineapple	7.3410659	37.3496638
+22	1244	Ethiopia	Saudi Arabia	70	Oil Seeds	7.8916667	34.5333333
+23	1244	Ethiopia	Saudi Arabia	70	Teff	7.8916667	34.5333333
+24	1244	Ethiopia	Saudi Arabia	70	Corn (Maize)	7.8916667	34.5333333
+25	1244	Ethiopia	Saudi Arabia	70	Rice	7.8916667	34.5333333
+26	1244	Ethiopia	Saudi Arabia	70	Sugar Cane	7.8916667	34.5333333
+27	1297	Ethiopia	United States of America	3000	Wheat	6.916667	37.233333
+28	1303	Ethiopia	India	23.3333333333	Coffee Plant	7.3187397	35.1268781
+29	1303	Ethiopia	India	23.3333333333	Eucalyptus	7.3187397	35.1268781
+30	1303	Ethiopia	India	23.3333333333	Tea	7.3187397	35.1268781
+31	1304	Ethiopia	India	312.5	Oil Seeds	11.75	36.183333
+32	1304	Ethiopia	India	312.5	Oil Seeds	11.75	35.2876256
+33	1304	Ethiopia	India	312.5	Oil Seeds	11.269533	36.183333
+34	1304	Ethiopia	India	312.5	Oil Seeds	11.269533	35.2876256
+35	1304	Ethiopia	India	312.5	Pongamia Pinnata	11.75	36.183333
+36	1304	Ethiopia	India	312.5	Pongamia Pinnata	11.75	35.2876256
+37	1304	Ethiopia	India	312.5	Pongamia Pinnata	11.269533	36.183333
+38	1304	Ethiopia	India	312.5	Pongamia Pinnata	11.269533	35.2876256
+39	1305	Ethiopia	Pakistan	26000	Sugar Cane	7.5460377	40.6346851
+40	1319	Ethiopia	Netherlands, Ethiopia	200	Jatropha	7.5460377	40.6346851
+41	1322	Ghana	Italy	1400	Jatropha	8.2166667	-0.65
+42	1323	Ghana	Israel	1000	Jatropha	6.5781373	0.4502368
+43	1337	Ghana	United States of America	9.375	Cacao	5.8827593	0.3607137
+44	1337	Ghana	United States of America	9.375	Cacao	5.8827593	-0.7152749
+45	1337	Ghana	United States of America	9.375	Cacao	5.4354319	0.3607137
+46	1337	Ghana	United States of America	9.375	Cacao	5.4354319	-0.7152749
+47	1337	Ghana	United States of America	9.375	Sun Flower	5.8827593	0.3607137
+48	1337	Ghana	United States of America	9.375	Sun Flower	5.8827593	-0.7152749
+49	1337	Ghana	United States of America	9.375	Sun Flower	5.4354319	0.3607137
+50	1337	Ghana	United States of America	9.375	Sun Flower	5.4354319	-0.7152749
+51	1337	Ghana	United States of America	9.375	Jatropha	5.8827593	0.3607137
+52	1337	Ghana	United States of America	9.375	Jatropha	5.8827593	-0.7152749
+53	1337	Ghana	United States of America	9.375	Jatropha	5.4354319	0.3607137
+54	1337	Ghana	United States of America	9.375	Jatropha	5.4354319	-0.7152749
+55	1337	Ghana	United States of America	9.375	Oil Palm	5.8827593	0.3607137
+56	1337	Ghana	United States of America	9.375	Oil Palm	5.8827593	-0.7152749
+57	1337	Ghana	United States of America	9.375	Oil Palm	5.4354319	0.3607137
+58	1337	Ghana	United States of America	9.375	Oil Palm	5.4354319	-0.7152749
+59	1338	Ghana	United Kingdom of Great Britain and Northern Ireland, Ghana	5	Jatropha	7.946527	-1.023194
+60	1348	Ghana	United States of America, Ghana	303	Rice	6.5781373	0.4502368
+61	1363	Kenya	Canada	19	Jatropha	-2.2694764	40.1107088
+62	1383	Kenya	Kenya	250	Corn (Maize)	-1.5618499	40.1153755
+63	1388	Liberia	Malaysia	555.5555555556	Oil Palm	6.673103	-11.16484
+64	1388	Liberia	Malaysia	555.5555555556	Oil Palm	6.673103	-10.0807298
+65	1388	Liberia	Malaysia	555.5555555556	Oil Palm	6.673103	-11.0711758
+66	1388	Liberia	Malaysia	555.5555555556	Oil Palm	7.4952637	-11.16484
+67	1388	Liberia	Malaysia	555.5555555556	Oil Palm	7.4952637	-10.0807298
+68	1388	Liberia	Malaysia	555.5555555556	Oil Palm	7.4952637	-11.0711758
+69	1388	Liberia	Malaysia	555.5555555556	Oil Palm	7.0467758	-11.16484
+70	1388	Liberia	Malaysia	555.5555555556	Oil Palm	7.0467758	-10.0807298
+71	1388	Liberia	Malaysia	555.5555555556	Oil Palm	7.0467758	-11.0711758
+72	1388	Liberia	Malaysia	555.5555555556	Rubber	6.673103	-11.16484
+73	1388	Liberia	Malaysia	555.5555555556	Rubber	6.673103	-10.0807298
+74	1388	Liberia	Malaysia	555.5555555556	Rubber	6.673103	-11.0711758
+75	1388	Liberia	Malaysia	555.5555555556	Rubber	7.4952637	-11.16484
+76	1388	Liberia	Malaysia	555.5555555556	Rubber	7.4952637	-10.0807298
+77	1388	Liberia	Malaysia	555.5555555556	Rubber	7.4952637	-11.0711758
+78	1388	Liberia	Malaysia	555.5555555556	Rubber	7.0467758	-11.16484
+79	1388	Liberia	Malaysia	555.5555555556	Rubber	7.0467758	-10.0807298
+80	1388	Liberia	Malaysia	555.5555555556	Rubber	7.0467758	-11.0711758
+81	1393	Liberia	India, United Kingdom of Great Britain and Northern Ireland, Malaysia	5600	Oil Palm	6.2308452	-9.8124935
+82	1395	Liberia	United Kingdom of Great Britain and Northern Ireland	2000	Oil Palm	5.49871	-8.6600586
+83	1414	Madagascar	United Kingdom of Great Britain and Northern Ireland	55700	Jatropha	-23.1485269	44.3992892
+84	1419	Madagascar	United Kingdom of Great Britain and Northern Ireland	100	Corn (Maize)	-16.1333333	46.7666667
+85	1419	Madagascar	United Kingdom of Great Britain and Northern Ireland	100	Jatropha	-16.1333333	46.7666667
+86	1419	Madagascar	United Kingdom of Great Britain and Northern Ireland	100	Vegetables	-16.1333333	46.7666667
+87	1425	Madagascar	Germany, Madagascar	420	Jatropha	-21.3390868	46.516262
+88	1426	Madagascar	Germany, Panama	75	Oil Seeds	-16.3645202	45.9039689
+89	1426	Madagascar	Germany, Panama	75	Jatropha	-16.3645202	45.9039689
+90	1428	Madagascar	India	1000	Corn (Maize)	-22.6558058	46.3624686
+91	1430	Madagascar	Norway	20.8333333333	Accacia	-16.094431	47.644329
+92	1430	Madagascar	Norway	20.8333333333	Accacia	-16.094431	46.5166667
+93	1430	Madagascar	Norway	20.8333333333	Accacia	-16.7333333	47.644329
+94	1430	Madagascar	Norway	20.8333333333	Accacia	-16.7333333	46.5166667
+95	1430	Madagascar	Norway	20.8333333333	Eucalyptus	-16.094431	47.644329
+96	1430	Madagascar	Norway	20.8333333333	Eucalyptus	-16.094431	46.5166667
+97	1430	Madagascar	Norway	20.8333333333	Eucalyptus	-16.7333333	47.644329
+98	1430	Madagascar	Norway	20.8333333333	Eucalyptus	-16.7333333	46.5166667
+99	1430	Madagascar	Norway	20.8333333333	Trees	-16.094431	47.644329
+100	1430	Madagascar	Norway	20.8333333333	Trees	-16.094431	46.5166667
+101	1430	Madagascar	Norway	20.8333333333	Trees	-16.7333333	47.644329
+102	1430	Madagascar	Norway	20.8333333333	Trees	-16.7333333	46.5166667
+103	1447	Madagascar	Madagascar	4	Sugar Cane	-16.3645202	45.9039689
+104	1454	Madagascar	Italy	2000	Jatropha	-22.4036111	46.1258333
+105	1524	Mozambique	United Kingdom of Great Britain and Northern Ireland	50	Jatropha	-13.3003699	35.23962
+106	1527	Mozambique	United States of America	670	Jatropha	-23.872959	35.34388
+107	1545	Mozambique	Sweden, Norway, Netherlands, United States of America, Mozambique	1850	Eucalyptus	-13.875	35.4286111
+108	1545	Mozambique	Sweden, Norway, Netherlands, United States of America, Mozambique	1850	Pine	-13.875	35.4286111
+109	1546	Mozambique	Sweden, United States of America, Mozambique	100	Eucalyptus	-16.85	36.9833333
+110	1546	Mozambique	Sweden, United States of America, Mozambique	100	Eucalyptus	-16.85	37.688499
+111	1546	Mozambique	Sweden, United States of America, Mozambique	100	Eucalyptus	-16.85	36.7509735
+112	1546	Mozambique	Sweden, United States of America, Mozambique	100	Eucalyptus	-16.85	37.3827234
+113	1546	Mozambique	Sweden, United States of America, Mozambique	100	Eucalyptus	-15.63042	36.9833333
+114	1546	Mozambique	Sweden, United States of America, Mozambique	100	Eucalyptus	-15.63042	37.688499
+115	1546	Mozambique	Sweden, United States of America, Mozambique	100	Eucalyptus	-15.63042	36.7509735
+116	1546	Mozambique	Sweden, United States of America, Mozambique	100	Eucalyptus	-15.63042	37.3827234
+117	1546	Mozambique	Sweden, United States of America, Mozambique	100	Eucalyptus	-16.4291224	36.9833333
+118	1546	Mozambique	Sweden, United States of America, Mozambique	100	Eucalyptus	-16.4291224	37.688499
+119	1546	Mozambique	Sweden, United States of America, Mozambique	100	Eucalyptus	-16.4291224	36.7509735
+120	1546	Mozambique	Sweden, United States of America, Mozambique	100	Eucalyptus	-16.4291224	37.3827234
+121	1546	Mozambique	Sweden, United States of America, Mozambique	100	Eucalyptus	-16.1677375	36.9833333
+122	1546	Mozambique	Sweden, United States of America, Mozambique	100	Eucalyptus	-16.1677375	37.688499
+123	1546	Mozambique	Sweden, United States of America, Mozambique	100	Eucalyptus	-16.1677375	36.7509735
+124	1546	Mozambique	Sweden, United States of America, Mozambique	100	Eucalyptus	-16.1677375	37.3827234
+125	1547	Mozambique	Sweden, Norway, Netherlands, United States of America, Mozambique	3150	Teak	-15.829214	36.6957216
+126	1548	Mozambique	Italy	150	Jatropha	-14.56477	40.6888689
+127	1554	Mozambique	Italy	155	Sun Flower	-23.873541	35.38826
+128	1554	Mozambique	Italy	155	Jatropha	-23.873541	35.38826
+129	1563	Mozambique	Portugal	200	Jatropha	-16.4291224	36.7509735
+130	1570	Mozambique	Norway	825	Accacia	-15.1166667	39.2666667
+131	1570	Mozambique	Norway	825	Eucalyptus	-15.1166667	39.2666667
+132	1572	Mozambique	Netherlands	266.6666666667	Sun Flower	-15.4666667	36.9833333
+133	1572	Mozambique	Netherlands	266.6666666667	Oil Seeds	-15.4666667	36.9833333
+134	1572	Mozambique	Netherlands	266.6666666667	Soya Beans	-15.4666667	36.9833333
+135	1577	Mozambique	Portugal	1000	Sun Flower	-19.816667	34.016667
+136	1577	Mozambique	Portugal	1000	Corn (Maize)	-19.816667	34.016667
+137	1577	Mozambique	Portugal	1000	Soya Beans	-19.816667	34.016667
+138	1586	Mozambique	South Africa, Mozambique	5301.5	Eucalyptus	-18.9344444	32.8755556
+139	1586	Mozambique	South Africa, Mozambique	5301.5	Pine	-18.9344444	32.8755556
+140	1652	Namibia	United Arab Emirates, Namibia	7.5	Grapes	-26.9451586142	17.9182183268
+141	1652	Namibia	United Arab Emirates, Namibia	7.5	Palms	-26.9451586142	17.9182183268
+142	1680	Nigeria	Belgium	8000	Rubber	4.8580767	6.9209135
+143	1680	Nigeria	Belgium	8000	Oil Palm	4.8580767	6.9209135
+144	1687	Nigeria	Nigeria	7000	Sorghum	7.6655813	5.3102505
+145	1691	Nigeria	Nigeria	116.6666666667	Corn (Maize)	8.9847995	4.5624426
+146	1691	Nigeria	Nigeria	116.6666666667	Grains	8.9847995	4.5624426
+147	1691	Nigeria	Nigeria	116.6666666667	Soya Beans	8.9847995	4.5624426
+148	1745	South Sudan	South Sudan	344	Rice	8.770132	27.39286
+149	1755	South Sudan	United Kingdom of Great Britain and Northern Ireland	1489	Teak	4.633031	28.248631
+150	1761	South Sudan	Canada	8	Sorghum	5.1033333	31.5847222
+151	1761	South Sudan	Canada	8	Corn (Maize)	5.1033333	31.5847222
+152	1761	South Sudan	Canada	8	Wheat	5.1033333	31.5847222
+153	1772	Senegal	Belgium	6	Jatropha	16.5105628	-15.5034785
+154	1777	Senegal	France	100	Tomatoes	16.0246299	-16.489531
+155	1777	Senegal	France	100	Corn (Maize)	16.0246299	-16.489531
+156	1820	Sierra Leone	Netherlands	16.6666666667	Sorghum	8.6447707	-12.4505969
+157	1820	Sierra Leone	Netherlands	16.6666666667	Sesame	8.6447707	-12.4505969
+158	1820	Sierra Leone	Netherlands	16.6666666667	Rice	8.6447707	-12.4505969
+159	1839	United Republic of Tanzania	United Kingdom of Great Britain and Northern Ireland, United Republic of Tanzania	3000	Rice	-8.4078032347	36.1483154297
+160	1854	United Republic of Tanzania	Singapore	2	Rice (hybrid)	-6.445776	38.8996009
+161	1875	United Republic of Tanzania	Norway	360	Oil Palm	-8.1021532	38.3756156
+162	1876	United Republic of Tanzania	United Kingdom of Great Britain and Northern Ireland	750	Pine	-7.7340887	35.7171133
+163	1876	United Republic of Tanzania	United Kingdom of Great Britain and Northern Ireland	750	Trees	-7.7340887	35.7171133
+164	1880	United Republic of Tanzania	United Republic of Tanzania	100	Sun Flower	-6.1730556	35.7419444
+165	1880	United Republic of Tanzania	United Republic of Tanzania	100	Jatropha	-6.1730556	35.7419444
+166	1889	United Republic of Tanzania	United Republic of Tanzania	1000	Barley	-8.8566158	34.0251538
+167	1889	United Republic of Tanzania	United Republic of Tanzania	1000	Jatropha	-8.8566158	34.0251538
+168	1889	United Republic of Tanzania	United Republic of Tanzania	1000	Rice	-8.8566158	34.0251538
+169	1895	United Republic of Tanzania	Sweden, United Republic of Tanzania	200	Sugar Cane	-6.445776	38.8996009
+170	1958	Uganda	India, Uganda	10000	Sugar Cane	0.616667	33.15
+171	1963	Uganda	Germany	1802	Coffee Plant	0.5772758	31.5370003
+172	1976	Uganda	Kenya, Singapore	7500	Oil Palm	-0.4462387773	32.2123620288
+173	1978	Uganda	China	28.8333333333	Corn (Maize)	0.8330556	32.4994444
+174	1978	Uganda	China	28.8333333333	Fruit	0.8330556	32.4994444
+175	1978	Uganda	China	28.8333333333	Rice	0.8330556	32.4994444
+176	1978	Uganda	China	28.8333333333	Trees	0.8330556	32.4994444
+177	1978	Uganda	China	28.8333333333	Vegetables	0.8330556	32.4994444
+178	1978	Uganda	China	28.8333333333	Wheat	0.8330556	32.4994444
+179	1999	Democratic Republic of the Congo	Canada, Democratic Republic of the Congo	1983.7777777778	Oil Palm	2.2505416653	22.9221724497
+180	1999	Democratic Republic of the Congo	Canada, Democratic Republic of the Congo	1983.7777777778	Oil Palm	2.2505416653	19.066608
+181	1999	Democratic Republic of the Congo	Canada, Democratic Republic of the Congo	1983.7777777778	Oil Palm	2.2505416653	23.6025
+182	1999	Democratic Republic of the Congo	Canada, Democratic Republic of the Congo	1983.7777777778	Oil Palm	-0.315425	22.9221724497
+183	1999	Democratic Republic of the Congo	Canada, Democratic Republic of the Congo	1983.7777777778	Oil Palm	-0.315425	19.066608
+184	1999	Democratic Republic of the Congo	Canada, Democratic Republic of the Congo	1983.7777777778	Oil Palm	-0.315425	23.6025
+185	1999	Democratic Republic of the Congo	Canada, Democratic Republic of the Congo	1983.7777777778	Oil Palm	1.14444	22.9221724497
+186	1999	Democratic Republic of the Congo	Canada, Democratic Republic of the Congo	1983.7777777778	Oil Palm	1.14444	19.066608
+187	1999	Democratic Republic of the Congo	Canada, Democratic Republic of the Congo	1983.7777777778	Oil Palm	1.14444	23.6025
+188	2050	Zambia	South Africa	32.0625	Banana	-17.9244444	25.8566667
+189	2050	Zambia	South Africa	32.0625	Banana	-17.9244444	23.0685424805
+190	2050	Zambia	South Africa	32.0625	Banana	-14.9713200173	25.8566667
+191	2050	Zambia	South Africa	32.0625	Banana	-14.9713200173	23.0685424805
+192	2050	Zambia	South Africa	32.0625	Corn (Maize)	-17.9244444	25.8566667
+193	2050	Zambia	South Africa	32.0625	Corn (Maize)	-17.9244444	23.0685424805
+194	2050	Zambia	South Africa	32.0625	Corn (Maize)	-14.9713200173	25.8566667
+195	2050	Zambia	South Africa	32.0625	Corn (Maize)	-14.9713200173	23.0685424805
+196	2050	Zambia	South Africa	32.0625	Soya Beans	-17.9244444	25.8566667
+197	2050	Zambia	South Africa	32.0625	Soya Beans	-17.9244444	23.0685424805
+198	2050	Zambia	South Africa	32.0625	Soya Beans	-14.9713200173	25.8566667
+199	2050	Zambia	South Africa	32.0625	Soya Beans	-14.9713200173	23.0685424805
+200	2050	Zambia	South Africa	32.0625	Wheat	-17.9244444	25.8566667
+201	2050	Zambia	South Africa	32.0625	Wheat	-17.9244444	23.0685424805
+202	2050	Zambia	South Africa	32.0625	Wheat	-14.9713200173	25.8566667
+203	2050	Zambia	South Africa	32.0625	Wheat	-14.9713200173	23.0685424805
+204	2053	Zambia	South Africa	1366.6666666667	Corn (Maize)	-13.61324	29.39205
+205	2053	Zambia	South Africa	1366.6666666667	Soya Beans	-13.61324	29.39205
+206	2053	Zambia	South Africa	1366.6666666667	Wheat	-13.61324	29.39205
+207	2058	Zimbabwe	Zimbabwe	8500	Sugar Cane	-20.7683931	32.2285171
+208	2241	Ghana	Norway	3333.3333333333	Corn (Maize)	6.8	-1.0833333
+209	2241	Ghana	Norway	3333.3333333333	Jatropha	6.8	-1.0833333
+210	2241	Ghana	Norway	3333.3333333333	Soya Beans	6.8	-1.0833333
+211	2271	Mozambique	United Kingdom of Great Britain and Northern Ireland	770	Jatropha	-19.1166667	33.45
+212	2271	Mozambique	United Kingdom of Great Britain and Northern Ireland	770	Soya Beans	-19.1166667	33.45
+213	2271	Mozambique	United Kingdom of Great Britain and Northern Ireland	770	Food crops (no specification)	-19.1166667	33.45
+214	2289	Mauritius	Singapore	330	Rice (hybrid)	-20.3707241	57.6063694
+215	2332	Sudan	United Arab Emirates	1260	None	15.16027	33.125881
+216	2335	Sudan	Brazil	6000	Cotton	12.862807	30.217636
+217	2335	Sudan	Brazil	6000	Soya Beans	12.862807	30.217636
+218	2342	Sudan	Egypt	504	Cotton	13.16126	32.66341
+219	2342	Sudan	Egypt	504	Sorghum	13.16126	32.66341
+220	2342	Sudan	Egypt	504	Sun Flower	13.16126	32.66341
+221	2342	Sudan	Egypt	504	Wheat	13.16126	32.66341
+222	2342	Sudan	Egypt	504	Sugar Cane	13.16126	32.66341
+223	2369	South Africa	South Africa	110	Vegetables	-29.8167	30.6167
+224	2371	Sierra Leone	Luxembourg	1562.5	Oil Palm	7.3505556	-11.7180556
+225	2371	Sierra Leone	Luxembourg	1562.5	Rubber	7.3505556	-11.7180556
+226	2372	Sierra Leone	Singapore	33.3333333333	Oil Palm	7.3505556	-11.7180556
+227	2372	Sierra Leone	Singapore	33.3333333333	Oil Palm	7.3505556	-12.7875
+228	2372	Sierra Leone	Singapore	33.3333333333	Oil Palm	7.3505556	-11.7409946
+229	2372	Sierra Leone	Singapore	33.3333333333	Oil Palm	8.7666667	-11.7180556
+230	2372	Sierra Leone	Singapore	33.3333333333	Oil Palm	8.7666667	-12.7875
+231	2372	Sierra Leone	Singapore	33.3333333333	Oil Palm	8.7666667	-11.7409946
+232	2372	Sierra Leone	Singapore	33.3333333333	Oil Palm	7.9551791	-11.7180556
+233	2372	Sierra Leone	Singapore	33.3333333333	Oil Palm	7.9551791	-12.7875
+234	2372	Sierra Leone	Singapore	33.3333333333	Oil Palm	7.9551791	-11.7409946
+235	2375	Mozambique	Norway	608.3333333333	Eucalyptus	-12.7826202	36.6093926
+236	2375	Mozambique	Norway	608.3333333333	Pine	-12.7826202	36.6093926
+237	2375	Mozambique	Norway	608.3333333333	Trees	-12.7826202	36.6093926
+238	2376	Mozambique	Sweden, United States of America, Mozambique	7500	Eucalyptus	-12.7826202	36.6093926
+239	2376	Mozambique	Sweden, United States of America, Mozambique	7500	Pine	-12.7826202	36.6093926
+240	2398	United Republic of Tanzania	Turkey	150	Corn (Maize)	-8.1021532	38.3756156
+241	2398	United Republic of Tanzania	Turkey	150	Rice	-8.1021532	38.3756156
+242	3003	Sierra Leone	Portugal	13.8888888889	Cassava (Maniok)	8.6447707	-12.4505969
+243	3003	Sierra Leone	Portugal	13.8888888889	Cassava (Maniok)	8.6447707	-13.0364141
+244	3003	Sierra Leone	Portugal	13.8888888889	Cassava (Maniok)	8.6447707	-12.734256
+245	3003	Sierra Leone	Portugal	13.8888888889	Cassava (Maniok)	8.9643706	-12.4505969
+246	3003	Sierra Leone	Portugal	13.8888888889	Cassava (Maniok)	8.9643706	-13.0364141
+247	3003	Sierra Leone	Portugal	13.8888888889	Cassava (Maniok)	8.9643706	-12.734256
+248	3003	Sierra Leone	Portugal	13.8888888889	Cassava (Maniok)	9.0373	-12.4505969
+249	3003	Sierra Leone	Portugal	13.8888888889	Cassava (Maniok)	9.0373	-13.0364141
+250	3003	Sierra Leone	Portugal	13.8888888889	Cassava (Maniok)	9.0373	-12.734256
+251	3003	Sierra Leone	Portugal	13.8888888889	Oil Palm	8.6447707	-12.4505969
+252	3003	Sierra Leone	Portugal	13.8888888889	Oil Palm	8.6447707	-13.0364141
+253	3003	Sierra Leone	Portugal	13.8888888889	Oil Palm	8.6447707	-12.734256
+254	3003	Sierra Leone	Portugal	13.8888888889	Oil Palm	8.9643706	-12.4505969
+255	3003	Sierra Leone	Portugal	13.8888888889	Oil Palm	8.9643706	-13.0364141
+256	3003	Sierra Leone	Portugal	13.8888888889	Oil Palm	8.9643706	-12.734256
+257	3003	Sierra Leone	Portugal	13.8888888889	Oil Palm	9.0373	-12.4505969
+258	3003	Sierra Leone	Portugal	13.8888888889	Oil Palm	9.0373	-13.0364141
+259	3003	Sierra Leone	Portugal	13.8888888889	Oil Palm	9.0373	-12.734256
+260	3003	Sierra Leone	Portugal	13.8888888889	Pineapple	8.6447707	-12.4505969
+261	3003	Sierra Leone	Portugal	13.8888888889	Pineapple	8.6447707	-13.0364141
+262	3003	Sierra Leone	Portugal	13.8888888889	Pineapple	8.6447707	-12.734256
+263	3003	Sierra Leone	Portugal	13.8888888889	Pineapple	8.9643706	-12.4505969
+264	3003	Sierra Leone	Portugal	13.8888888889	Pineapple	8.9643706	-13.0364141
+265	3003	Sierra Leone	Portugal	13.8888888889	Pineapple	8.9643706	-12.734256
+266	3003	Sierra Leone	Portugal	13.8888888889	Pineapple	9.0373	-12.4505969
+267	3003	Sierra Leone	Portugal	13.8888888889	Pineapple	9.0373	-13.0364141
+268	3003	Sierra Leone	Portugal	13.8888888889	Pineapple	9.0373	-12.734256
+269	3003	Sierra Leone	Portugal	13.8888888889	Rice	8.6447707	-12.4505969
+270	3003	Sierra Leone	Portugal	13.8888888889	Rice	8.6447707	-13.0364141
+271	3003	Sierra Leone	Portugal	13.8888888889	Rice	8.6447707	-12.734256
+272	3003	Sierra Leone	Portugal	13.8888888889	Rice	8.9643706	-12.4505969
+273	3003	Sierra Leone	Portugal	13.8888888889	Rice	8.9643706	-13.0364141
+274	3003	Sierra Leone	Portugal	13.8888888889	Rice	8.9643706	-12.734256
+275	3003	Sierra Leone	Portugal	13.8888888889	Rice	9.0373	-12.4505969
+276	3003	Sierra Leone	Portugal	13.8888888889	Rice	9.0373	-13.0364141
+277	3003	Sierra Leone	Portugal	13.8888888889	Rice	9.0373	-12.734256
+278	3005	Sierra Leone	India	870	Oil Palm	8.7666667	-12.7875
+279	3008	Sierra Leone	China	660	Cassava (Maniok)	8.7389416	-11.7979613
+280	3008	Sierra Leone	China	660	Sugar Cane	8.7389416	-11.7979613
+281	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Eucalyptus	0.5575	31.395
+282	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Eucalyptus	0.5575	31.770519
+283	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Eucalyptus	0.5575	33.7519444
+284	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Eucalyptus	0.910115	31.395
+285	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Eucalyptus	0.910115	31.770519
+286	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Eucalyptus	0.910115	33.7519444
+287	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Eucalyptus	0.5633333	31.395
+288	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Eucalyptus	0.5633333	31.770519
+289	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Eucalyptus	0.5633333	33.7519444
+290	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Pine	0.5575	31.395
+291	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Pine	0.5575	31.770519
+292	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Pine	0.5575	33.7519444
+293	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Pine	0.910115	31.395
+294	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Pine	0.910115	31.770519
+295	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Pine	0.910115	33.7519444
+296	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Pine	0.5633333	31.395
+297	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Pine	0.5633333	31.770519
+298	3017	Uganda	United Kingdom of Great Britain and Northern Ireland	577.7777777778	Pine	0.5633333	33.7519444
+299	3021	United Republic of Tanzania	United States of America, Finland	527.5555555556	Teak	-8.2306427	36.954107
+300	3021	United Republic of Tanzania	United States of America, Finland	527.5555555556	Teak	-8.2306427	37.1258593
+301	3021	United Republic of Tanzania	United States of America, Finland	527.5555555556	Teak	-8.2306427	36.9371409
+302	3021	United Republic of Tanzania	United States of America, Finland	527.5555555556	Teak	-8.0677121	36.954107
+303	3021	United Republic of Tanzania	United States of America, Finland	527.5555555556	Teak	-8.0677121	37.1258593
+304	3021	United Republic of Tanzania	United States of America, Finland	527.5555555556	Teak	-8.0677121	36.9371409
+305	3021	United Republic of Tanzania	United States of America, Finland	527.5555555556	Teak	-7.319206	36.954107
+306	3021	United Republic of Tanzania	United States of America, Finland	527.5555555556	Teak	-7.319206	37.1258593
+307	3021	United Republic of Tanzania	United States of America, Finland	527.5555555556	Teak	-7.319206	36.9371409
+308	3023	Mozambique	South Africa	42.8571428571	Citrus Fruits	-19.2307542734	33.1492627434
+309	3023	Mozambique	South Africa	42.8571428571	Pepper	-19.2307542734	33.1492627434
+310	3023	Mozambique	South Africa	42.8571428571	Banana	-19.2307542734	33.1492627434
+311	3023	Mozambique	South Africa	42.8571428571	Bean	-19.2307542734	33.1492627434
+312	3023	Mozambique	South Africa	42.8571428571	Eucalyptus	-19.2307542734	33.1492627434
+313	3023	Mozambique	South Africa	42.8571428571	Fruit	-19.2307542734	33.1492627434
+314	3023	Mozambique	South Africa	42.8571428571	Vegetables	-19.2307542734	33.1492627434
+315	3037	Mozambique	India	2000	Tea	-15.4666667	36.9833333
+316	3038	Mozambique	India	250	Tea	-15.4666667	36.9833333
+317	3038	Mozambique	India	250	Eucalyptus	-15.4666667	36.9833333
+318	3041	Mozambique	United States of America	160	Soya Beans	-15.4666667	36.9833333
+319	3075	Nigeria	France, Nigeria, Côte d'Ivoire	12000	Rubber	9.0833333	3.85
+320	3123	Zambia	South Africa, Germany	8	Jatropha	-11.83663	31.460951
+321	3126	Zambia	Denmark	125	Corn (Maize)	-15.408193	28.287167
+322	3126	Zambia	Denmark	125	Wheat	-15.408193	28.287167
+323	3126	Zambia	Denmark	125	Onion	-15.408193	28.287167
+324	3126	Zambia	Denmark	125	Soya Beans	-15.408193	28.287167
+325	3126	Zambia	Denmark	125	Coffee Plant	-15.408193	28.287167
+326	3126	Zambia	Denmark	125	Fruit	-15.408193	28.287167
+327	3126	Zambia	Denmark	125	Sun Flower	-15.408193	28.287167
+328	3126	Zambia	Denmark	125	Potatoes	-15.408193	28.287167
+329	3156	Uganda	Norway	1008	Eucalyptus	1.9166667	33.1666667
+330	3156	Uganda	Norway	1008	Pine	1.9166667	33.1666667
+331	3269	Cote d'Ivoire	France	14600	Sugar Cane	9.594055	-5.202308
+332	3271	Cote d'Ivoire	Belgium	5500	Rubber	6.543355	-7.482713
+333	3272	Cote d'Ivoire	Singapore, Israel	1900	Oil Palm	5.366667	-3.3166669
+334	3334	Madagascar	India, Madagascar	250	Food crops (no specification)	-13.4086535	49.2030851
+335	3336	Madagascar	Madagascar	50	Peanut	-18.559436	45.8955555
+336	3336	Madagascar	Madagascar	50	Food crops (no specification)	-18.559436	45.8955555
+337	3338	Madagascar	None	80	None	-17.2833562	47.1362125
+338	3345	Gabon	France	1100	Sugar Cane	-1.6333333	13.5833333
+339	3345	Gabon	France	1100	Sugar Cane	-1.6333333	13.2279699
+340	3345	Gabon	France	1100	Sugar Cane	-1.55702	13.5833333
+341	3345	Gabon	France	1100	Sugar Cane	-1.55702	13.2279699
+342	3352	Gabon	Belgium	346	Oil Palm	2.077678	11.48874
+343	3352	Gabon	Belgium	346	Oil Palm	2.077678	11.55333
+344	3352	Gabon	Belgium	346	Oil Palm	2.077678	10.2403858
+345	3352	Gabon	Belgium	346	Oil Palm	2.077678	10.2684253
+346	3352	Gabon	Belgium	346	Oil Palm	2.077678	11.1617356
+347	3352	Gabon	Belgium	346	Oil Palm	0.78542	11.48874
+348	3352	Gabon	Belgium	346	Oil Palm	0.78542	11.55333
+349	3352	Gabon	Belgium	346	Oil Palm	0.78542	10.2403858
+350	3352	Gabon	Belgium	346	Oil Palm	0.78542	10.2684253
+351	3352	Gabon	Belgium	346	Oil Palm	0.78542	11.1617356
+352	3352	Gabon	Belgium	346	Oil Palm	-0.7015457	11.48874
+353	3352	Gabon	Belgium	346	Oil Palm	-0.7015457	11.55333
+354	3352	Gabon	Belgium	346	Oil Palm	-0.7015457	10.2403858
+355	3352	Gabon	Belgium	346	Oil Palm	-0.7015457	10.2684253
+356	3352	Gabon	Belgium	346	Oil Palm	-0.7015457	11.1617356
+357	3352	Gabon	Belgium	346	Oil Palm	-0.5708778	11.48874
+358	3352	Gabon	Belgium	346	Oil Palm	-0.5708778	11.55333
+359	3352	Gabon	Belgium	346	Oil Palm	-0.5708778	10.2403858
+360	3352	Gabon	Belgium	346	Oil Palm	-0.5708778	10.2684253
+361	3352	Gabon	Belgium	346	Oil Palm	-0.5708778	11.1617356
+362	3352	Gabon	Belgium	346	Oil Palm	-2.8821033	11.48874
+363	3352	Gabon	Belgium	346	Oil Palm	-2.8821033	11.55333
+364	3352	Gabon	Belgium	346	Oil Palm	-2.8821033	10.2403858
+365	3352	Gabon	Belgium	346	Oil Palm	-2.8821033	10.2684253
+366	3352	Gabon	Belgium	346	Oil Palm	-2.8821033	11.1617356
+367	3352	Gabon	Belgium	346	Rubber	2.077678	11.48874
+368	3352	Gabon	Belgium	346	Rubber	2.077678	11.55333
+369	3352	Gabon	Belgium	346	Rubber	2.077678	10.2403858
+370	3352	Gabon	Belgium	346	Rubber	2.077678	10.2684253
+371	3352	Gabon	Belgium	346	Rubber	2.077678	11.1617356
+372	3352	Gabon	Belgium	346	Rubber	0.78542	11.48874
+373	3352	Gabon	Belgium	346	Rubber	0.78542	11.55333
+374	3352	Gabon	Belgium	346	Rubber	0.78542	10.2403858
+375	3352	Gabon	Belgium	346	Rubber	0.78542	10.2684253
+376	3352	Gabon	Belgium	346	Rubber	0.78542	11.1617356
+377	3352	Gabon	Belgium	346	Rubber	-0.7015457	11.48874
+378	3352	Gabon	Belgium	346	Rubber	-0.7015457	11.55333
+379	3352	Gabon	Belgium	346	Rubber	-0.7015457	10.2403858
+380	3352	Gabon	Belgium	346	Rubber	-0.7015457	10.2684253
+381	3352	Gabon	Belgium	346	Rubber	-0.7015457	11.1617356
+382	3352	Gabon	Belgium	346	Rubber	-0.5708778	11.48874
+383	3352	Gabon	Belgium	346	Rubber	-0.5708778	11.55333
+384	3352	Gabon	Belgium	346	Rubber	-0.5708778	10.2403858
+385	3352	Gabon	Belgium	346	Rubber	-0.5708778	10.2684253
+386	3352	Gabon	Belgium	346	Rubber	-0.5708778	11.1617356
+387	3352	Gabon	Belgium	346	Rubber	-2.8821033	11.48874
+388	3352	Gabon	Belgium	346	Rubber	-2.8821033	11.55333
+389	3352	Gabon	Belgium	346	Rubber	-2.8821033	10.2403858
+390	3352	Gabon	Belgium	346	Rubber	-2.8821033	10.2684253
+391	3352	Gabon	Belgium	346	Rubber	-2.8821033	11.1617356
+392	3389	Ghana	Netherlands	3500	Teak	7.398538	-1.95107
+393	3391	Ghana	Ghana	599.5	Cassava (Maniok)	6.599779	0.471394
+394	3391	Ghana	Ghana	599.5	Soya Beans	6.599779	0.471394
+395	3399	Ghana	United States of America	40	Corn (Maize)	7.0498071	0.1869644
+396	3404	Ghana	United Arab Emirates	20.8333333333	Eucalyptus	6.8	-1.0833333
+397	3404	Ghana	United Arab Emirates	20.8333333333	Eucalyptus	6.8	-1.2770675
+398	3404	Ghana	United Arab Emirates	20.8333333333	Eucalyptus	6.9111632	-1.0833333
+399	3404	Ghana	United Arab Emirates	20.8333333333	Eucalyptus	6.9111632	-1.2770675
+400	3404	Ghana	United Arab Emirates	20.8333333333	Pine	6.8	-1.0833333
+401	3404	Ghana	United Arab Emirates	20.8333333333	Pine	6.8	-1.2770675
+402	3404	Ghana	United Arab Emirates	20.8333333333	Pine	6.9111632	-1.0833333
+403	3404	Ghana	United Arab Emirates	20.8333333333	Pine	6.9111632	-1.2770675
+404	3404	Ghana	United Arab Emirates	20.8333333333	Teak	6.8	-1.0833333
+405	3404	Ghana	United Arab Emirates	20.8333333333	Teak	6.8	-1.2770675
+406	3404	Ghana	United Arab Emirates	20.8333333333	Teak	6.9111632	-1.0833333
+407	3404	Ghana	United Arab Emirates	20.8333333333	Teak	6.9111632	-1.2770675
+408	3458	Liberia	Luxembourg	4297	Rubber	6.5769511148	-10.3117594812
+409	3464	Liberia	Côte d'Ivoire, France	4500	Rubber	4.7258878	-7.7416703
+410	3492	Central African Republic	France	5317	Sugar Cane	6.3168216	20.7122465
+411	3736	Gabon	Gabon	300000	Trees	-0.803689	11.609444
+412	3765	Ghana	France	150	Banana	6.090349	0.123512
+413	3765	Ghana	France	150	Banana	6.090349	-0.351248
+414	3765	Ghana	France	150	Banana	5.804359	0.123512
+415	3765	Ghana	France	150	Banana	5.804359	-0.351248
+416	3765	Ghana	France	150	Pineapple	6.090349	0.123512
+417	3765	Ghana	France	150	Pineapple	6.090349	-0.351248
+418	3765	Ghana	France	150	Pineapple	5.804359	0.123512
+419	3765	Ghana	France	150	Pineapple	5.804359	-0.351248
+420	3767	Ghana	United Kingdom of Great Britain and Northern Ireland	600	Oil Palm	7.946527	-1.023194
+421	3768	Ghana	United States of America	300	Rice	6.5781373	0.4502368
+422	3770	Ghana	United States of America	1619	Oil Palm	8.0052425	0.5565138
+423	3776	Uganda	India	1516	Tea	0.2580521	30.5279096
+424	3776	Uganda	India	1516	Eucalyptus	0.2580521	30.5279096
+425	3786	Zimbabwe	South Africa	38.1111111111	Tea	-18.212391	32.731789
+426	3786	Zimbabwe	South Africa	38.1111111111	Tea	-18.212391	32.8733117
+427	3786	Zimbabwe	South Africa	38.1111111111	Tea	-18.212391	30.68914
+428	3786	Zimbabwe	South Africa	38.1111111111	Tea	-19.8032402	32.731789
+429	3786	Zimbabwe	South Africa	38.1111111111	Tea	-19.8032402	32.8733117
+430	3786	Zimbabwe	South Africa	38.1111111111	Tea	-19.8032402	30.68914
+431	3786	Zimbabwe	South Africa	38.1111111111	Tea	-17.886471	32.731789
+432	3786	Zimbabwe	South Africa	38.1111111111	Tea	-17.886471	32.8733117
+433	3786	Zimbabwe	South Africa	38.1111111111	Tea	-17.886471	30.68914
+434	3786	Zimbabwe	South Africa	38.1111111111	Flowers	-18.212391	32.731789
+435	3786	Zimbabwe	South Africa	38.1111111111	Flowers	-18.212391	32.8733117
+436	3786	Zimbabwe	South Africa	38.1111111111	Flowers	-18.212391	30.68914
+437	3786	Zimbabwe	South Africa	38.1111111111	Flowers	-19.8032402	32.731789
+438	3786	Zimbabwe	South Africa	38.1111111111	Flowers	-19.8032402	32.8733117
+439	3786	Zimbabwe	South Africa	38.1111111111	Flowers	-19.8032402	30.68914
+440	3786	Zimbabwe	South Africa	38.1111111111	Flowers	-17.886471	32.731789
+441	3786	Zimbabwe	South Africa	38.1111111111	Flowers	-17.886471	32.8733117
+442	3786	Zimbabwe	South Africa	38.1111111111	Flowers	-17.886471	30.68914
+443	3786	Zimbabwe	South Africa	38.1111111111	Banana	-18.212391	32.731789
+444	3786	Zimbabwe	South Africa	38.1111111111	Banana	-18.212391	32.8733117
+445	3786	Zimbabwe	South Africa	38.1111111111	Banana	-18.212391	30.68914
+446	3786	Zimbabwe	South Africa	38.1111111111	Banana	-19.8032402	32.731789
+447	3786	Zimbabwe	South Africa	38.1111111111	Banana	-19.8032402	32.8733117
+448	3786	Zimbabwe	South Africa	38.1111111111	Banana	-19.8032402	30.68914
+449	3786	Zimbabwe	South Africa	38.1111111111	Banana	-17.886471	32.731789
+450	3786	Zimbabwe	South Africa	38.1111111111	Banana	-17.886471	32.8733117
+451	3786	Zimbabwe	South Africa	38.1111111111	Banana	-17.886471	30.68914
+452	3786	Zimbabwe	South Africa	38.1111111111	Fruit	-18.212391	32.731789
+453	3786	Zimbabwe	South Africa	38.1111111111	Fruit	-18.212391	32.8733117
+454	3786	Zimbabwe	South Africa	38.1111111111	Fruit	-18.212391	30.68914
+455	3786	Zimbabwe	South Africa	38.1111111111	Fruit	-19.8032402	32.731789
+456	3786	Zimbabwe	South Africa	38.1111111111	Fruit	-19.8032402	32.8733117
+457	3786	Zimbabwe	South Africa	38.1111111111	Fruit	-19.8032402	30.68914
+458	3786	Zimbabwe	South Africa	38.1111111111	Fruit	-17.886471	32.731789
+459	3786	Zimbabwe	South Africa	38.1111111111	Fruit	-17.886471	32.8733117
+460	3786	Zimbabwe	South Africa	38.1111111111	Fruit	-17.886471	30.68914
+461	3786	Zimbabwe	South Africa	38.1111111111	Vegetables	-18.212391	32.731789
+462	3786	Zimbabwe	South Africa	38.1111111111	Vegetables	-18.212391	32.8733117
+463	3786	Zimbabwe	South Africa	38.1111111111	Vegetables	-18.212391	30.68914
+464	3786	Zimbabwe	South Africa	38.1111111111	Vegetables	-19.8032402	32.731789
+465	3786	Zimbabwe	South Africa	38.1111111111	Vegetables	-19.8032402	32.8733117
+466	3786	Zimbabwe	South Africa	38.1111111111	Vegetables	-19.8032402	30.68914
+467	3786	Zimbabwe	South Africa	38.1111111111	Vegetables	-17.886471	32.731789
+468	3786	Zimbabwe	South Africa	38.1111111111	Vegetables	-17.886471	32.8733117
+469	3786	Zimbabwe	South Africa	38.1111111111	Vegetables	-17.886471	30.68914
+470	3788	Burkina Faso	Singapore	214.6666666667	Peanut	11.5029004	-3.5812692
+471	3788	Burkina Faso	Singapore	214.6666666667	Sun Flower	11.5029004	-3.5812692
+472	3788	Burkina Faso	Singapore	214.6666666667	Jatropha	11.5029004	-3.5812692
+473	3819	Ethiopia	France	120	Grapes	7.8984780399	38.7367510811
+474	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Sun Flower	-8.4883999	31.1955
+475	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Sun Flower	-8.4883999	31.1329
+476	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Sun Flower	-8.4883999	31.127
+477	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Sun Flower	-10.118	31.1955
+478	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Sun Flower	-10.118	31.1329
+479	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Sun Flower	-10.118	31.127
+480	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Sun Flower	-9.4657	31.1955
+481	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Sun Flower	-9.4657	31.1329
+482	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Sun Flower	-9.4657	31.127
+483	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Corn (Maize)	-8.4883999	31.1955
+484	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Corn (Maize)	-8.4883999	31.1329
+485	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Corn (Maize)	-8.4883999	31.127
+486	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Corn (Maize)	-10.118	31.1955
+487	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Corn (Maize)	-10.118	31.1329
+488	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Corn (Maize)	-10.118	31.127
+489	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Corn (Maize)	-9.4657	31.1955
+490	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Corn (Maize)	-9.4657	31.1329
+491	3840	United Republic of Tanzania, Zambia	Singapore	65.1666666667	Corn (Maize)	-9.4657	31.127
+492	3848	Mozambique	China	100	Rice (hybrid)	-25.05	33.65
+493	3848	Mozambique	China	100	Soya Beans	-25.05	33.65
+494	3865	Democratic Republic of the Congo	Democratic Republic of the Congo	1125	Cacao	2.466429	20.100061
+495	3865	Democratic Republic of the Congo	Democratic Republic of the Congo	1125	Coffee Plant	2.466429	20.100061
+496	3865	Democratic Republic of the Congo	Democratic Republic of the Congo	1125	Oil Palm	2.466429	20.100061
+497	3865	Democratic Republic of the Congo	Democratic Republic of the Congo	1125	Rubber	2.466429	20.100061
+498	3867	Democratic Republic of the Congo	United Kingdom of Great Britain and Northern Ireland	306.3333333333	Eucalyptus	0.5640036	20.3308814
+499	3867	Democratic Republic of the Congo	United Kingdom of Great Britain and Northern Ireland	306.3333333333	Eucalyptus	0.5640036	17.385599
+500	3867	Democratic Republic of the Congo	United Kingdom of Great Britain and Northern Ireland	306.3333333333	Eucalyptus	-3.3152339	20.3308814
+501	3867	Democratic Republic of the Congo	United Kingdom of Great Britain and Northern Ireland	306.3333333333	Eucalyptus	-3.3152339	17.385599
+502	3867	Democratic Republic of the Congo	United Kingdom of Great Britain and Northern Ireland	306.3333333333	Oil Palm	0.5640036	20.3308814
+503	3867	Democratic Republic of the Congo	United Kingdom of Great Britain and Northern Ireland	306.3333333333	Oil Palm	0.5640036	17.385599
+504	3867	Democratic Republic of the Congo	United Kingdom of Great Britain and Northern Ireland	306.3333333333	Oil Palm	-3.3152339	20.3308814
+505	3867	Democratic Republic of the Congo	United Kingdom of Great Britain and Northern Ireland	306.3333333333	Oil Palm	-3.3152339	17.385599
+506	3867	Democratic Republic of the Congo	United Kingdom of Great Britain and Northern Ireland	306.3333333333	Rubber	0.5640036	20.3308814
+507	3867	Democratic Republic of the Congo	United Kingdom of Great Britain and Northern Ireland	306.3333333333	Rubber	0.5640036	17.385599
+508	3867	Democratic Republic of the Congo	United Kingdom of Great Britain and Northern Ireland	306.3333333333	Rubber	-3.3152339	20.3308814
+509	3867	Democratic Republic of the Congo	United Kingdom of Great Britain and Northern Ireland	306.3333333333	Rubber	-3.3152339	17.385599
+510	3870	Nigeria	Singapore	3000	Rice	8.4171593269	8.360880982
+511	3889	United Republic of Tanzania	Mauritius	7700	Sugar Cane	-3.338543	37.34296
+512	3893	Mozambique	Portugal	2000	Eucalyptus	-18.9344444	32.8755556
+513	3944	Zambia	Zambia	3000	Oil Palm	-11.83663	31.460951
+514	4060	Zambia	South Africa	440	Sugar Cane	-15.866667	27.666667
+515	4174	Uganda	Uganda	313	Tea	0.4777722	32.0382856
+516	4175	Uganda	Uganda	190	Tea	0.3980556	32.4780556
+517	4281	United Republic of Tanzania	United Kingdom of Great Britain and Northern Ireland	500	Banana	-5.3049789	38.3165725
+518	4281	United Republic of Tanzania	United Kingdom of Great Britain and Northern Ireland	500	Vegetables	-5.3049789	38.3165725
+519	4287	Zambia	United Kingdom of Great Britain and Northern Ireland	29.6	Barley	-15.6830192	27.9676062
+520	4287	Zambia	United Kingdom of Great Britain and Northern Ireland	29.6	Sorghum	-15.6830192	27.9676062
+521	4287	Zambia	United Kingdom of Great Britain and Northern Ireland	29.6	Corn (Maize)	-15.6830192	27.9676062
+522	4287	Zambia	United Kingdom of Great Britain and Northern Ireland	29.6	Soya Beans	-15.6830192	27.9676062
+523	4287	Zambia	United Kingdom of Great Britain and Northern Ireland	29.6	Wheat	-15.6830192	27.9676062
+524	4298	Morocco	Spain	800	Olives	31.791702	-7.09262
+525	4301	Sierra Leone	United Kingdom of Great Britain and Northern Ireland	200	Cacao	7.877183	-11.18523
+526	4305	Guinea-Bissau	Spain	210	Rice	12.1719444	-14.6575
